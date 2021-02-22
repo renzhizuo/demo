@@ -3,6 +3,7 @@ package com.renzhi.demo.test.validate;
 import cn.hutool.extra.validation.BeanValidationResult;
 import cn.hutool.extra.validation.ValidationUtil;
 import com.alibaba.fastjson.JSON;
+import com.renzhi.demo.BaseTest;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -16,9 +17,8 @@ import java.util.Set;
  * Created on : 2021-02-10
  * author : renzhi.zuo
  */
-@SpringBootTest
 @Slf4j
-public class validateUtilTest {
+public class validateUtilTest extends BaseTest {
     @Test
     public void test(){
         ValidateBean validateBean = new ValidateBean().setId(7).setName("张三").setEmail("11111111111@qq.com");

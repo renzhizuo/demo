@@ -6,6 +6,7 @@ package com.renzhi.demo.test.pool;
  * author : renzhi.zuo
  */
 import com.google.common.util.concurrent.ThreadFactoryBuilder;
+import com.renzhi.demo.BaseTest;
 import org.apache.commons.lang3.concurrent.BasicThreadFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
@@ -22,7 +23,7 @@ import java.util.concurrent.*;
  * 核心线程 corePoolSize 、任务队列 workQueue 、最大线程 maximumPoolSize ，如果三者都满了，使用 handler处理被拒绝的任务。
  * 当线程池中的线程数量大于 corePoolSize 时，如果某线程空闲时间超过 keepAliveTime ，线程将被终止。这样，线程池可以动态的调整池中的线程数。
  */
-public class TheadPoolTest {
+public class TheadPoolTest extends BaseTest {
     static class ThreadPoolExecutorI {
         private ThreadFactory namedThreadFactory = new ThreadFactoryBuilder().setNameFormat("thread-call-runner-%d").build();
 

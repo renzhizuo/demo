@@ -1,5 +1,6 @@
 package com.renzhi.demo.test.listener;
 
+import com.renzhi.demo.BaseTest;
 import com.renzhi.demo.domain.Message;
 import com.renzhi.demo.listener.MessageListener;
 import lombok.extern.slf4j.Slf4j;
@@ -14,9 +15,8 @@ import java.util.List;
  * Created on : 2021-02-10
  * author : renzhi.zuo
  */
-@SpringBootTest
 @Slf4j
-public class ListenerTest {
+public class ListenerTest extends BaseTest {
     @Resource
     private List<MessageListener> messageListenerList;
 
