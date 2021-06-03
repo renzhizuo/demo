@@ -32,6 +32,11 @@ public class LoggingFilter extends CommonsRequestLoggingFilter {
     }
 
     @Override
+    public void setMaxPayloadLength(int maxPayloadLength) {
+        super.setMaxPayloadLength(50);
+    }
+
+    @Override
     protected boolean isIncludeQueryString() {
         return true;
     }
