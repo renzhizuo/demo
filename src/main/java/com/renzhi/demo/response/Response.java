@@ -13,7 +13,7 @@ import java.util.Optional;
  * author : renzhi.zuo
  */
 
-@ApiModel(description = "chat返回实体封装")
+@ApiModel(description = "demo返回实体封装")
 @Data
 public class Response<T> {
 
