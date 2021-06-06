@@ -1,0 +1,43 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class AbstractList
+abstract AbstractCollection
+interface List
+interface Collection
+interface Service
+class A{
+B a
+void test()
+void testC(C c)
+}
+class B
+class C
+class D
+class F
+A -- F
+A --|>D
+E <--* A
+A o-- C
+A ..> B
+Service <|.. A
+List <|-- AbstractList
+Collection <|-- AbstractCollection
+
+Collection <|- List
+AbstractCollection <|- AbstractList
+AbstractList <|-- ArrayList
+
+class ArrayList {
+Object[] elementData
+void size()
+void doA(A a)
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml
