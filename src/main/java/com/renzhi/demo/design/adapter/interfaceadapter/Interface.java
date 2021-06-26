@@ -1,4 +1,4 @@
-package com.renzhi.demo.knowledge.design.adapter.interfaceadapter;
+package com.renzhi.demo.design.adapter.interfaceadapter;
 
 /**
  * Description : 类描述

@@ -1,4 +1,4 @@
-package com.renzhi.demo.knowledge.design.adapter;
+package com.renzhi.demo.design.adapter;
 
 public class Voltage220V  {
     public int output220V(){

@@ -1,6 +1,6 @@
 package com.renzhi.demo.domain;
 
-import com.renzhi.demo.knowledge.design.adapter.IVoltage5V;
+import com.renzhi.demo.design.adapter.IVoltage5V;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

@@ -1,4 +1,4 @@
-package com.renzhi.demo.knowledge.design.template;
+package com.renzhi.demo.design.template;
 
 /**
  * Description : 类描述

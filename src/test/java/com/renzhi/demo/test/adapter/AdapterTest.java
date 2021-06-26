@@ -1,10 +1,10 @@
 package com.renzhi.demo.test.adapter;
 
-import com.renzhi.demo.knowledge.design.adapter.Voltage220V;
-import com.renzhi.demo.knowledge.design.adapter.VoltageAdapter;
-import com.renzhi.demo.knowledge.design.adapter.VoltageAdapter2;
-import com.renzhi.demo.knowledge.design.adapter.interfaceadapter.AbsAdapter;
-import com.renzhi.demo.knowledge.design.adapter.interfaceadapter.Interface;
+import com.renzhi.demo.design.adapter.Voltage220V;
+import com.renzhi.demo.design.adapter.VoltageAdapter;
+import com.renzhi.demo.design.adapter.VoltageAdapter2;
+import com.renzhi.demo.design.adapter.interfaceadapter.AbsAdapter;
+import com.renzhi.demo.design.adapter.interfaceadapter.Interface;
 import com.renzhi.demo.domain.Phone;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;

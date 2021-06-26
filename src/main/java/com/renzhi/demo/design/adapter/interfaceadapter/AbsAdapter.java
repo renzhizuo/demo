@@ -1,4 +1,4 @@
-package com.renzhi.demo.knowledge.design.adapter.interfaceadapter;
+package com.renzhi.demo.design.adapter.interfaceadapter;
 
 /**
  * 1)	一些书籍称为：适配器模式(Default Adapter Pattern)或缺省适配器模式。

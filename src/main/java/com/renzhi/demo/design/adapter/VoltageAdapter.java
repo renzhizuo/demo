@@ -1,4 +1,4 @@
-package com.renzhi.demo.knowledge.design.adapter;
+package com.renzhi.demo.design.adapter;
 
 import lombok.extern.slf4j.Slf4j;
 
